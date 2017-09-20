@@ -39,7 +39,7 @@ public class ShowTable extends HttpServlet {
                         + "<td>" + rs.getString("department") + "</td>"
                         + "<td>" + rs.getString("Salary") + "</td>"
                         + "<td>" + rs.getString("ranking") + "</td>"
-                        + "<td>" + "<a href=delete?Id=" + rs.getString("empno") + ">"
+                        + "<td>" + "<a href=delete?empno=" + rs.getString("empno") + ">"
                         + "<input type=button value=Delete>"
                         + "</a></td>");
             }
